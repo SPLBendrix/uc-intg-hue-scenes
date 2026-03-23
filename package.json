@@ -1,0 +1,8 @@
+{
+  "name": "hue-scenes-intg",
+  "version": "2.1.0",
+  "main": "driver.js",
+  "dependencies": {
+    "ws": "^8.17.0"
+  }
+}

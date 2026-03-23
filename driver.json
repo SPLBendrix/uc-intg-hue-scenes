@@ -1,0 +1,20 @@
+{
+  "driver_id": "hue-scenes-intg",
+  "version": "2.1.0",
+  "min_core_api": "0.20.0",
+  "name": { "en": "Philips Hue Scenes" },
+  "icon": "uc:light",
+  "description": { "en": "Expose Philips Hue scenes as button entities. Auto-discovers your bridge." },
+  "developer": { "name": "Custom" },
+  "setup_data_schema": {
+    "title": { "en": "Philips Hue Setup" },
+    "settings": [
+      {
+        "id": "info",
+        "label": { "en": "Setup" },
+        "field": { "label": { "value": { "en": "Click Next to discover your Hue bridge automatically." } } }
+      }
+    ]
+  },
+  "release_date": "2026-03-23"
+}
